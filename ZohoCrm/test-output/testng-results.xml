@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Shahbaz]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-31T21:14:36 GMT-07:00" name="Default suite" finished-at="2023-05-31T21:14:50 GMT-07:00" duration-ms="13318">
+    <groups>
+    </groups>
+    <test started-at="2023-05-31T21:14:36 GMT-07:00" name="Default test" finished-at="2023-05-31T21:14:50 GMT-07:00" duration-ms="13318">
+      <class name="com.zoho.testscript.CreateCustomer">
+        <test-method is-config="true" signature="OpenBrower()[pri:0, instance:com.zoho.testscript.CreateCustomer@5562c41e]" started-at="2023-05-31T21:14:36 GMT-07:00" name="OpenBrower" finished-at="2023-05-31T21:14:41 GMT-07:00" duration-ms="4345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrower -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.zoho.testscript.CreateCustomer@5562c41e]" started-at="2023-05-31T21:14:41 GMT-07:00" name="login" finished-at="2023-05-31T21:14:44 GMT-07:00" duration-ms="3089" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="TestCreateCustomer()[pri:0, instance:com.zoho.testscript.CreateCustomer@5562c41e]" started-at="2023-05-31T21:14:44 GMT-07:00" name="TestCreateCustomer" finished-at="2023-05-31T21:14:50 GMT-07:00" duration-ms="5845" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Shahbaz]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCreateCustomer -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:com.zoho.testscript.CreateCustomer@5562c41e]" started-at="2023-05-31T21:14:50 GMT-07:00" name="LogOut" finished-at="2023-05-31T21:14:50 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="CloseBrower()[pri:0, instance:com.zoho.testscript.CreateCustomer@5562c41e]" started-at="2023-05-31T21:14:50 GMT-07:00" name="CloseBrower" finished-at="2023-05-31T21:14:50 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrower -->
+      </class> <!-- com.zoho.testscript.CreateCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
